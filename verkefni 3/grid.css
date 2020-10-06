@@ -1,0 +1,46 @@
+header, nav, aside, article, main, footer{
+    border: 0.5px solid #ff0000
+}
+
+h1{
+    text-align: center;
+    
+}
+
+
+
+body{
+    max-width: 800px; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "h h h h h"
+    "n n n n n"
+    "v a a a hae"
+    "f f f f f";
+}
+
+nav {
+display:flex;
+justify-content: space-between;
+text-align: center;
+}
+
+
+.haus{
+    grid-area: h;}
+
+.valstika{
+    grid-area: n;}
+
+.vinstri{
+    grid-area: v;}
+
+.adal{
+    grid-area: a;}
+
+.haegri{
+    grid-area: hae;}
+
+    .fotur{
+        grid-area: f;}
